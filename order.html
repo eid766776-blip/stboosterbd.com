@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order Form</title>
 
+<style>
+body{
+background:#0b1020;
+font-family:Arial,sans-serif;
+color:white;
+padding:20px;
+}
+.box{
+max-width:400px;
+margin:auto;
+background:#1a1f3a;
+padding:20px;
+border-radius:15px;
+}
+input,select{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:8px;
+}
+button{
+width:100%;
+padding:12px;
+background:#00bfff;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>🛒 Order Form</h2>
+
+<form>
+
+<label>TikTok Username</label>
+<input type="text" placeholder="@username" required>
+
+<label>Password (Demo)</label>
+<input type="password" placeholder="Password">
+
+<label>Coin Package</label>
+<select>
+<option>70 Coins</option>
+<option>140 Coins</option>
+<option>210 Coins</option>
+<option>280 Coins</option>
+<option>350 Coins</option>
+<option>420 Coins</option>
+<option>490 Coins</option>
+<option>560 Coins</option>
+</select>
+
+<label>Payment Method</label>
+<select>
+<option>bKash</option>
+<option>Nagad</option>
+</select>
+
+<label>Transaction ID</label>
+<input type="text" placeholder="Enter Trx ID" required>
+
+<button type="submit">Submit Order</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
