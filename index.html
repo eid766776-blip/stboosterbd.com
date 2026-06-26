@@ -1,25 +1,292 @@
-<img src="logo.png" class="logo" alt="ST Booster">
-.logo{
-    width:60px;
-    height:60px;
-    object-fit:contain;
-    border-radius:15px;
-    background:#fff;
-    padding:5px;
-}
-<header>
-    <div class="logo-area">
-        <img src="logo.png" class="logo">
-        <div>
-            <h2>ST Booster</h2>
-            <p>Trusted Top-Up</p>
-        </div>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="wallet">৳0</div>
-</header>
-.logo-area{
-    display:flex;
-    align-items:center;
-    gap:12px;
+<title>ST Booster BD</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
 }
+
+body{
+background:#070d22;
+color:#fff;
+padding-bottom:90px;
+}
+
+header{
+background:linear-gradient(135deg,#0055ff,#00c6ff);
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 0 20px #00bfff;
+}
+
+.logo-area{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo{
+width:60px;
+height:60px;
+object-fit:contain;
+background:#fff;
+border-radius:15px;
+padding:5px;
+}
+
+.wallet{
+background:#fff;
+color:#0055ff;
+padding:10px 18px;
+border-radius:12px;
+font-weight:bold;
+font-size:20px;
+}
+
+.notice{
+margin:15px;
+background:#141d3d;
+padding:15px;
+border-left:5px solid cyan;
+border-radius:12px;
+font-size:15px;
+}
+
+.slider{
+margin:15px;
+height:180px;
+background:linear-gradient(45deg,#0066ff,#00bfff);
+border-radius:20px;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:34px;
+font-weight:bold;
+}
+
+.section-title{
+margin:20px 15px 10px;
+font-size:22px;
+font-weight:bold;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+padding:15px;
+}
+
+.card{
+background:#151d38;
+border-radius:18px;
+padding:18px;
+text-align:center;
+box-shadow:0 0 15px rgba(0,191,255,.25);
+}
+
+.card h3{
+font-size:18px;
+margin-bottom:10px;
+}
+
+.price{
+font-size:18px;
+color:#34ffd0;
+font-weight:bold;
+margin:10px 0;
+}
+
+.btn{
+display:block;
+background:#19bfff;
+color:#fff;
+padding:12px;
+border-radius:12px;
+text-decoration:none;
+font-weight:bold;
+margin-top:10px;
+}
+.payment{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+padding:15px;
+}
+
+.pay-card{
+background:#151d38;
+border-radius:18px;
+padding:20px;
+box-shadow:0 0 15px rgba(0,191,255,.25);
+}
+
+.pay-card h2{
+margin-bottom:15px;
+}
+
+.pay-btn{
+display:block;
+margin-top:15px;
+padding:14px;
+text-align:center;
+background:#19bfff;
+color:#fff;
+text-decoration:none;
+border-radius:12px;
+font-weight:bold;
+}
+
+.bottom-nav{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#11182f;
+display:flex;
+justify-content:space-around;
+padding:12px 0;
+box-shadow:0 -3px 10px rgba(0,0,0,.5);
+}
+
+.bottom-nav a{
+color:#fff;
+text-decoration:none;
+font-size:14px;
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#aaa;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo-area">
+<img src="logo.png" class="logo">
+
+<div>
+<h2>ST Booster</h2>
+<p>Trusted Top-Up</p>
+</div>
+
+</div>
+
+<div class="wallet">৳0</div>
+
+</header>
+
+<div class="notice">
+📢 Welcome to ST Booster BD. Fast & Trusted TikTok Coin Seller.
+</div>
+
+<div class="slider">
+ST BOOSTER BD
+</div>
+
+<h2 class="section-title">🔥 TikTok Coins</h2>
+
+<div class="products">
+<div class="card">
+<h3>70 Coins</h3>
+<div class="price">৳160</div>
+<a href="https://facebook.com" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>140 Coins</h3>
+<div class="price">৳290</div>
+<a href="https://facebook.com" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>210 Coins</h3>
+<div class="price">৳430</div>
+<a href="https://facebook.com" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>280 Coins</h3>
+<div class="price">৳570</div>
+<a href="https://facebook.com" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>350 Coins</h3>
+<div class="price">৳710</div>
+<a href="https://facebook.com" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>420 Coins</h3>
+<div class="price">৳850</div>
+<a href="https://facebook.com" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>490 Coins</h3>
+<div class="price">৳990</div>
+<a href="https://facebook.com" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>560 Coins</h3>
+<div class="price">৳1130</div>
+<a href="https://facebook.com" class="btn">Buy Now</a>
+</div>
+
+</div>
+
+<div class="payment">
+
+<div class="pay-card">
+<h2>💳 Payment</h2>
+
+<p><b>bKash:</b><br>01741284168</p>
+<br>
+
+<p><b>Phone:</b><br>01861563690</p>
+
+<a href="https://facebook.com" class="pay-btn">📩 Facebook Order</a>
+
+<a href="https://wa.me/8801861563690" class="pay-btn">💬 WhatsApp Order</a>
+
+</div>
+</div>
+
+<footer>
+    <h3>ST Booster BD</h3>
+    <p>Trusted TikTok Coin Seller</p>
+    <p>© 2026 All Rights Reserved</p>
+</footer>
+
+<div class="bottom-nav">
+    <a href="#">🏠<br>Home</a>
+    <a href="#">💳<br>Payment</a>
+    <a href="#">🛒<br>Shop</a>
+    <a href="#">📞<br>Support</a>
+    <a href="#">👤<br>Profile</a>
+</div>
+
+</body>
+</html>
